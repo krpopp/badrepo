@@ -12,7 +12,8 @@ public class CardBehavior : MonoBehaviour
         Deck,
         Hand,
         Selected,
-        Discard
+        Discard,
+        Two
     }
 
     private State currentState;
